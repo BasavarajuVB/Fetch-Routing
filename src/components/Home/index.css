@@ -1,0 +1,19 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+.user-info-container {
+  text-align: center;
+}
+.bloglist-container{
+  width: 90%;
+  margin: auto;
+}
+@media (min-width:768px){
+  .bloglist-container{
+    width: 80%;
+    margin: auto;
+  }
+}
